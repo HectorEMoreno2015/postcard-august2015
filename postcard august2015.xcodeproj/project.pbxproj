@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40B6F381B7AEC31008C1EF7 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40B6F371B7AEC31008C1EF7 /* AlbertEinsteinStamp.jpg */; };
 		C437BF3C1B71AD7A0024754D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437BF3B1B71AD7A0024754D /* AppDelegate.swift */; };
 		C437BF3E1B71AD7A0024754D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437BF3D1B71AD7A0024754D /* ViewController.swift */; };
 		C437BF411B71AD7A0024754D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C437BF3F1B71AD7A0024754D /* Main.storyboard */; };
 		C437BF431B71AD7A0024754D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C437BF421B71AD7A0024754D /* Images.xcassets */; };
 		C437BF461B71AD7A0024754D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C437BF441B71AD7A0024754D /* LaunchScreen.xib */; };
 		C437BF521B71AD7A0024754D /* postcard_august2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437BF511B71AD7A0024754D /* postcard_august2015Tests.swift */; };
+		C4B73F461B799ADC005BD5FE /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4B73F451B799ADC005BD5FE /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40B6F371B7AEC31008C1EF7 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		C437BF361B71AD7A0024754D /* postcard august2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "postcard august2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C437BF3A1B71AD7A0024754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C437BF3B1B71AD7A0024754D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C437BF4B1B71AD7A0024754D /* postcard august2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "postcard august2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C437BF501B71AD7A0024754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C437BF511B71AD7A0024754D /* postcard_august2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcard_august2015Tests.swift; sourceTree = "<group>"; };
+		C4B73F451B799ADC005BD5FE /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				C437BF501B71AD7A0024754D /* Info.plist */,
+				C40B6F371B7AEC31008C1EF7 /* AlbertEinsteinStamp.jpg */,
+				C4B73F451B799ADC005BD5FE /* SagradaFamilia.jpeg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C437BF411B71AD7A0024754D /* Main.storyboard in Resources */,
+				C4B73F461B799ADC005BD5FE /* SagradaFamilia.jpeg in Resources */,
+				C40B6F381B7AEC31008C1EF7 /* AlbertEinsteinStamp.jpg in Resources */,
 				C437BF461B71AD7A0024754D /* LaunchScreen.xib in Resources */,
 				C437BF431B71AD7A0024754D /* Images.xcassets in Resources */,
 			);
@@ -411,6 +419,7 @@
 				C437BF571B71AD7A0024754D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C437BF581B71AD7A0024754D /* Build configuration list for PBXNativeTarget "postcard august2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				C437BF5A1B71AD7A0024754D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
